@@ -1,8 +1,8 @@
 ---
 main:
-  lang_sample: "US English"
-  language_flag: "🇺🇸"
-  language_name: English
+  lang_sample: "Indonesian"
+  language_flag: "🇮🇩"
+  language_name: Indonesian
 strings:
   plugins:
     admin:
