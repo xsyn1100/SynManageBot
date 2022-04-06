@@ -1,6 +1,6 @@
 ---
 main:
-  lang_sample: "Indonesian"
+  lang_sample: ""
   language_flag: "🇮🇩"
   language_name: Indonesian
 strings:
