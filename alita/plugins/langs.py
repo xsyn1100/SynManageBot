@@ -16,17 +16,10 @@ async def gen_langs_kb():
     return [
         [
             (
-                f"{lang_dict[lang]['main']['language_flag']} {lang_dict[lang]['main']['language_name']} ({lang_dict[lang]['main']['lang_sample']})",
+                f"{lang_dict[lang]['main']['language_flag']} {lang_dict[lang]['main']['language_name']} ({lang_dict[lang]['main']})",
                 f"set_lang.{lang}",
             )
             for lang in langs
-        ],
-        [
-            (
-                "🌎 Help us with translations!",
-                "https://crowdin.com/project/alita_robot",
-                "url",
-            ),
         ],
     ]
 
@@ -112,7 +105,7 @@ __buttons__ = [
     [
         (
             "🌎 Help us with translations!",
-            "https://crowdin.com/project/alita_robot",
+            "https://t.me/synxsupport",
             "url",
         ),
     ],
