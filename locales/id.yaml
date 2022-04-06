@@ -600,8 +600,8 @@ strings:
     sent_pm_rules: "Saya sudah mengirimi Anda pesan tentang aturannya"
     set_rules: "Berhasil menetapkan aturan untuk grup ini."
   start:
-    add_chat_btn: "Tambahkan ke obrolan!"
-    commands_btn: "Bantuan❓"
+    add_chat_btn: "Tambahkan ke obrolan"
+    commands_btn: "Bantuan"
     group: "Aku hidup :3"
     info_page: |-
       • @synxrobot
