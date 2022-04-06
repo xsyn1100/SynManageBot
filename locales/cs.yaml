@@ -71,30 +71,30 @@ strings:
     bans:
       main: "Bans"
       help: |-
-        Someone annoying entered your group?
-        Want to ban/restriction him/her?
-        This is the plugin for you, easily kick, ban and unban members in a group.
-        **Admin only:**
-        × /kick: Kick the user replied or tagged.
-        × /skick: Kick the user replied or tagged and delete your messsage.
-        × /dkick: Kick the user replied and delete their message.
-        × /ban: Bans the user replied to or tagged.
-        × /sban: Bans the user replied or tagged and delete your messsage.
-        × /dban: Bans the user replied and delete their message.
-        × /tban <userhandle> x(m/h/d): Bans a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
-        × /stban <userhandle> x(m/h/d): Silently bans a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
-        × /dtban <userhandle> x(m/h/d): Silently bans a user for x time and delete the replied message. (via reply). m = minutes, h = hours, d = days.
-        × /unban: Unbans the user replied to or tagged.
-        **Example:**
-        `/ban @username`: this bans a user in the chat.
+        Seseorang yang mengganggu memasuki grup Anda?
+        Ingin melarang/membatasi dia?
+        Ini adalah plugin untuk Anda, dengan mudah menendang, melarang, dan membuka blokir anggota dalam grup.
+        **Hanya admin:**
+        × /kick: Tendang pengguna yang dibalas atau ditandai.
+        × /skick: Tendang pengguna yang membalas atau menandai dan menghapus pesan Anda.
+        × /dkick: Tendang balasan pengguna dan hapus pesan mereka.
+        × /ban: Ban yang dibalas atau diberi tag oleh pengguna.
+        × /sban: Melarang pengguna membalas atau menandai dan menghapus pesan Anda.
+        × /dban: Melarang pengguna membalas dan menghapus pesan mereka.
+        × /tban <userhandle> x(m/h/d): Melarang pengguna untuk x waktu. (melalui handle, atau balas). m = menit, h = jam, d = hari.
+        × /stban <userhandle> x(m/h/d): Diam-diam melarang pengguna untuk x waktu. (melalui handle, atau balas). m = menit, h = jam, d = hari.
+        × /dtban <userhandle> x(m/h/d): Diam-diam melarang pengguna untuk x waktu dan hapus pesan yang dibalas. (melalui balasan). m = menit, h = jam, d = hari.
+        × /unban: Membatalkan larangan yang dibalas atau diberi tag oleh pengguna.
+        **Contoh:**
+        `/ban @username`: ini melarang pengguna dalam obrolan.
     blacklist:
       main: "Blacklist"
       help: |-
-        Want to restrict certain words or sentences in your group?
-        Blacklists are used to stop certain triggers from being said in a group. Any time the trigger is mentioned, that message will immediately be deleted.
-        A good combo is sometimes to pair this up with warn filters!
-        **NOTE:** blacklists do not affect group admins.
-        × /blacklist: View the current blacklisted words.
+        Ingin membatasi kata atau kalimat tertentu dalam grup Anda?
+        Daftar hitam digunakan untuk menghentikan pemicu tertentu agar tidak diucapkan dalam grup. Setiap kali pemicu disebutkan, pesan itu akan segera dihapus.
+        Kombo yang bagus terkadang memasangkan ini dengan filter peringatan!
+        **CATATAN:** daftar hitam tidak memengaruhi admin grup.
+        × /blacklist: Lihat kata-kata yang masuk daftar hitam saat ini.
         **Admin only:**
         × /addblacklist `<triggers>`: Add a trigger to the blacklist. Each line is considered one trigger, so using different lines will allow you to add multiple triggers.
         × /unblacklist `<triggers>`: Remove triggers from the blacklist. Same newline logic applies here, so you can remove multiple triggers at once.
