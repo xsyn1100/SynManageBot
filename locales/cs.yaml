@@ -95,93 +95,93 @@ strings:
         Kombo yang bagus terkadang memasangkan ini dengan filter peringatan!
         **CATATAN:** daftar hitam tidak memengaruhi admin grup.
         × /blacklist: Lihat kata-kata yang masuk daftar hitam saat ini.
-        **Admin only:**
-        × /addblacklist `<triggers>`: Add a trigger to the blacklist. Each line is considered one trigger, so using different lines will allow you to add multiple triggers.
-        × /unblacklist `<triggers>`: Remove triggers from the blacklist. Same newline logic applies here, so you can remove multiple triggers at once.
-        × /blaction `<action>`: This action will occur when user uses a blacklist word. Choose from - 'kick', 'ban', 'mute', 'warn'.
-        Default is 'none', which will delete the users message on typing a blacklist word.
-        **Owner Only**
-        × /rmallblacklist: Removes all the blacklists from the current chat.
-        **Note:** Can only add or remove one blacklist at a time!
-        **Example:**
-        `/addblacklist hello`: this adds the word 'hello' as blacklist in the chat.
+        **Hanya admin:**
+        × /addblacklist `<triggers>`: Tambahkan pemicu ke daftar hitam. Setiap baris dianggap sebagai satu pemicu, jadi menggunakan baris yang berbeda akan memungkinkan Anda untuk menambahkan beberapa pemicu.
+        × /unblacklist `<triggers>`: Hapus pemicu dari daftar hitam. Logika baris baru yang sama berlaku di sini, sehingga Anda dapat menghapus beberapa pemicu sekaligus.
+        × /blaction `<action>`: Tindakan ini akan terjadi ketika pengguna menggunakan kata daftar hitam. Pilih dari - 'kick', 'ban', 'mute', 'warn'.
+        Standarnya adalah 'tidak ada', yang akan menghapus pesan pengguna saat mengetik kata daftar hitam.
+        **Hanya Pemilik**
+        × /rmallblacklist: Menghapus semua daftar hitam dari obrolan saat ini.
+        **Catatan :** Hanya dapat menambah atau menghapus satu daftar hitam dalam satu waktu!
+        **Contoh :**
+        `/addblacklist Asu`: ini menambahkan kata 'Asu' sebagai daftar hitam dalam obrolan.
     filters:
       main: "Filters"
       help: |-
-        • /filters: List all active filters saved in the chat.
+        • /filters: Daftar semua filter aktif yang disimpan dalam obrolan.
 
-        **Admin only:**
-        • /filter "`<keyword>`" `<reply message>`: Add a filter to this chat. The bot will now reply that message whenever 'keyword'
-        is mentioned. If you reply to a sticker with a keyword, the bot will reply with that sticker.
+        **Hanya admin:**
+        • /filter "`<kata kunci>`" `<membalas pesan>`: tambahkan filter ke obrolan ini. Bot sekarang akan membalas pesan itu kapan pun 'kata kunci'
+        disebutkan. Jika Anda membalas stiker dengan kata kunci, bot akan membalas dengan stiker itu.
 
-        If you want your keyword to be a sentence, use quotes. eg: /filter "hey there" How are you doin?
-        **Example:**
-        `/filter "filtername" Reply Text`
+        Jika Anda ingin kata kunci Anda menjadi kalimat, gunakan tanda kutip. misalnya: /filter "hei disana" Apa kabar?
+        **Contoh:**
+        `/filter "nama filter" Teks Balasan`
 
-        Aliases for filters can be too set, just put '|' between the filternames you want.
-        **Example:**
-        `/filter "filtername1|filtername2" Reply Text`
-        Using the you can make a single filter work on 2 filternames without manually adding another one.
+        Alias ​​​​untuk filter bisa terlalu disetel, sebut saja '|' antara nama filter yang Anda inginkan.
+        **Contoh:**
+        `/filter "nama filter1|nama filter2" Teks Balasan`
+        Dengan menggunakan itu, Anda dapat membuat satu filter berfungsi pada 2 nama filter tanpa menambahkan yang lain secara manual.
 
-        • /stop `<filter keyword>`: Stop that filter.
-        **Note:** For filters with aliases, if you stop one alias, the filter will stop working on other aliases too.
-        **For Example:** If you stop the "filtername1" from above example, the bot will not respond to "filtername2".
+        • /stop `<filter kata kunci>`: Hentikan filter itu.
+        **Catatan:** Untuk filter dengan alias, jika Anda menghentikan satu alias, filter juga akan berhenti bekerja pada alias lainnya.
+        **Misalnya:** Jika Anda menghentikan "nama filter1" dari contoh di atas, bot tidak akan menanggapi "nama filter2".
 
-        **Chat creator only:**
-        • /removeallfilters: Remove all chat filters at once.
+        **Hanya pembuat obrolan:**
+        • /removeallfilters: Hapus semua filter obrolan sekaligus.
 
-        **Note:**
-        Currently there is a limit of 50 filters and 120 aliases per chat.
-        All filter keywords are in lowercase.
+        **Catatan:**
+        Saat ini ada batas 50 filter dan 120 alias per chat.
+        Semua kata kunci filter dalam huruf kecil.
     formatting:
       main: "Formatting"
       help: |-
         Formatting
 
-        Alita supports a large number of formatting options to make your messages more expressive. Take a look by clicking the buttons below!
+        Syn mendukung sejumlah besar opsi pemformatan untuk membuat pesan Anda lebih ekspresif. Lihat dengan mengklik tombol di bawah ini!
     fun:
       main: "Fun"
       help: |-
-        × /runs: reply a random string from an array of replies.
-        × /slap: slap a user, or get slapped if not a reply.
-        × /shrug : get shrug XD.
-        × /decide : Randomly answers yes/no/maybe
-        × /toss : Tosses A coin
-        × /bluetext : check urself :V
-        × /roll : Roll a dice.
-        × /react : Random Reaction
-        × /shout `<keyword>`: write anything you want to give loud shout.
+        × /runs: membalas string acak dari array balasan.
+        × /slap: menampar pengguna, atau ditampar jika tidak dibalas.
+        × /shrug : angkat bahu XD.
+        × /decide : Menjawab secara acak yes/no/maybe
+        × /toss : Melempar koin
+        × /bluetext : periksa dirimu sendiri :V
+        × /roll : Melempar dadu.
+        × /react : Reaksi Acak
+        × /shout `<kata kunci>`: tulis apa saja yang ingin kamu teriakkan.
     language:
       main: "Language"
       help: |-
-        Not able to change language of the bot?
-        Easily change by using this module!
+        Tidak dapat mengubah bahasa bot?
+        Mudah berubah dengan menggunakan modul ini!
 
-        Just type /lang and use inline keyboard to choose a language for yourself or your group.
+        Ketik saja /lang dan gunakan papan ketik sebaris untuk memilih bahasa untuk Anda sendiri atau grup Anda.
 
-        You can help us bring bot to more languages by helping on [Crowdin](https://crowdin.com/project/alita_robot)
+        
     locks:
       main: "Locks"
       help: |-
-        Use this to lock group permissions.
-        Allows you to lock and unlock permission types in the chat.
+        Gunakan ini untuk mengunci izin grup.
+        Memungkinkan Anda mengunci dan membuka kunci jenis izin dalam obrolan.
 
-        **Usage:**
-        × /lock `<type>`: Lock Chat permission.
-        × /unlock `<type>`: Unlock Chat permission.
-        × /locks: View Chat permission.
-        × /locktypes: Check available lock types!
+        **Penggunaan:**
+        × /lock `<type>`: Mengunci izin Obrolan.
+        × /unlock `<type>`: Buka kunci izin Obrolan.
+        × /locks: Lihat izin Obrolan.
+        × /locktypes: Periksa jenis kunci yang tersedia!
 
-        **Example:**
-        `/lock media`: this locks all the media messages in the chat.
+        **Contoh:**
+        `/lock media`: ini mengunci semua pesan media dalam obrolan.
     muting:
       main: "Muting"
       help: |-
-        Want someone to keep quite for a while in the group?
-        Mute plugin is here to help, mute or unmute any user easily!
+        Ingin seseorang bertahan cukup lama di grup?
+        Plugin bisu ada di sini untuk membantu, membisukan atau mengaktifkan pengguna mana pun dengan mudah!
 
-        **Admin only:**
-        × /mute: Mute the user replied to or mentioned.
+        **Hanya Admin :**
+        × /mute: Bisukan pengguna yang dibalas atau disebutkan.
         × /smute: silences a user without notifying. Can also be used as a reply, muting the replied to user.
         × /dmute: Mute a user by reply, and delete their message.
         × /tmute <userhandle> x(m/h/d): mutes a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
