@@ -605,12 +605,12 @@ strings:
     commands_btn:  Help
     group: "I'm alive :3"
     info_page: |-
-      • @Alita_Robot
+      • @synxrobot
 
       <b>Version:</b> <i>{version}</i>
 
       <b>Developers:</b> [Paul](https://t.me/shshtst)
-      <b>Owner:</b> [{Paul}](tg://user?id={ID})
+      <b>Owner:</b> [{Owner}](tg://user?id={ID})
     support_group: Support
     language_btn: Language
     pm_for_help: "Contact me in PM to get the list of possible commands."
