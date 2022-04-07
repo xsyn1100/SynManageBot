@@ -71,6 +71,7 @@ strings:
 
         ── **Format** ──
         Check /markdownhelp for help related to formatting!
+
     bans:
       main: "Bans"
       help: |-
