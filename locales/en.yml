@@ -32,14 +32,14 @@ strings:
     approve:
       main: "Music"
       help: |-
-        For users
+        💡 For users
         × /play (query or reply audio): to playing music from youtube or your audio telegram.
         × /vplay (query or reply audio): for playing video from YouTube.
         × /music or /song (query): To download audio from YouTube.
         × /video or /vsong (query): To download video from YouTube.
         × /lyrics <song name artist(optional)>: sends the complete lyrics of the song provided as input.
   
-        Admins only
+        💡 Admins only
         × /pause: Pause the currently playing song.
         × /resume: Resume the paused song.
         × /skip: Play next song.
@@ -48,7 +48,7 @@ strings:
     
         NOTE: If you have any issues regarding syn music, contact us at @synxsupport.
     greetings:
-      main: "Greetings"
+      main: "Welcome"
       help: |-
         Customize your group's welcome / goodbye messages that can be personalised in multiple ways.
 
