@@ -103,7 +103,7 @@ async def warn(c: Alita, m: Message):
         )
     else:
         kb = InlineKeyboardButton(
-            "Kick ⚠️",
+            "Kick",
             callback_data=f"warn.kick.{user_id}",
         )
 
@@ -123,7 +123,7 @@ async def warn(c: Alita, m: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Remove Warn ❌",
+                        "Remove Warn",
                         callback_data=f"warn.remove.{user_id}",
                     ),
                 ]
@@ -307,7 +307,7 @@ async def remove_last_warn_btn(c: Alita, q: CallbackQuery):
             )
         except RPCError as err:
             await q.message.edit_text(
-                f"🛑 Failed to Kick\n<b>Error:</b>\n</code>{err}</code>",
+                f"❌ Failed to Kick\n<b>Error:</b>\n</code>{err}</code>",
             )
 
     await q.answer()
