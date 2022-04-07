@@ -620,8 +620,8 @@ strings:
       Maintained by @shshtst 
       Hit /help to see available commands.
 
-      Join my [News Channel](http://t.me/synxupdate) to get information on 
-      all the latest updates.
+      Join my [News Channel](http://t.me/synxupdate) to get information on all
+      the latest updates.
     public_help: "Press the button below to get help for <i>{help_option}</i>"
     source_code: "Source Code"
   utils:
