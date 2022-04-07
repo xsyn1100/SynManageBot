@@ -101,12 +101,4 @@ async def set_lang(_, m: Message):
 __PLUGIN__ = "language"
 
 __alt_name__ = ["lang", "langs", "languages"]
-__buttons__ = [
-    [
-        (
-            "🌎 Help us with translations!",
-            "https://t.me/synxsupport",
-            "url",
-        ),
-    ],
-]
+
