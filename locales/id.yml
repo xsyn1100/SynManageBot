@@ -30,21 +30,25 @@ strings:
         **Example:**
         `/promote @username`: ini mempromosikan pengguna ke admin.
     approve:
-      main: "Approve"
+      main: "Music"
       help: |-
-        Terkadang, Anda mungkin memercayai pengguna untuk tidak mengirim konten yang tidak diinginkan.
-        Mungkin tidak cukup untuk menjadikannya admin, tetapi Anda mungkin baik-baik saja dengan locks, blacklists, dan antiflood tidak berlaku untuk mereka.
-        Untuk itulah persetujuan - setujui pengguna tepercaya untuk mengizinkan mereka mengirim barang tanpa batasan!
-        **Perintah admin:**
-        × /approval: Periksa status persetujuan pengguna dalam obrolan ini.
-        × /approve: Menyetujui user. Lock, blacklist, dan anti-flood tidak akan berlaku untuk mereka lagi.
-        × /unapprove: Tidak menyetujui pengguna. Mereka sekarang akan dikenakan daftar blokir.
-        × /approved: Daftar semua pengguna yang disetujui.
-        × /unapproveall: Tidak disetujui *SEMUA* pengguna dalam obrolan. Ini tidak dapat dibatalkan!
-        **Contoh:**
-        `/approve @username`: ini menyetujui pengguna dalam obrolan.
+        💡 Untuk pengguna
+        × /play (judul atau balas audio): untuk memutar musik dari youtube atau telegram audio Anda.
+        × /vplay (judul atau balas audio): untuk memutar video dari YouTube.
+        × /music atau /song (judul): Untuk mengunduh audio dari YouTube.
+        × /video atau /vsong (judul): Untuk mengunduh video dari YouTube.
+        × /lyrics <nama lagu(optional )>: mengirimkan lirik lengkap lagu yang disediakan sebagai masukan.
+
+        💡 Hanya admin
+        × /pause: Jeda lagu yang sedang diputar.
+        × /resume: Lanjutkan lagu yang dijeda.
+        × /skip: Putar lagu berikutnya.
+        × /end: Hentikan musik yang sedang diputar.
+        × /vstop: Hentikan video yang sedang diputar
+
+        NOTE: Jika Anda memiliki masalah tentang musik, hubungi kami di @synxsupport.
     greetings:
-      main: "Greetings"
+      main: "Welcome"
       help: |-
         Sesuaikan sambutan grup Anda / goodbye pesan yang dapat dipersonalisasi dalam berbagai cara.
 
