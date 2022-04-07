@@ -619,12 +619,12 @@ strings:
     pm_for_help: "Hubungi saya di PM untuk mendapatkan daftar kemungkinan perintah."
     private: |-
       Hei! Nama saya Syn ✨.
-      Saya di sini untuk membantu Anda mengelola grup Anda!
+      Saya di sini untuk membantu Anda mengelola grup!
       Dikelola oleh @shshtst 
       Tekan /help untuk melihat perintah yang tersedia.
 
-      Bergabunglah ke [Channel](http://t.me/synxupdate) saya untuk mendapatkan informasi 
-      tentang semua pembaruan terbaru.
+      Bergabunglah ke [Channel](http://t.me/synxupdate) saya untuk mendapatkan
+      informasi tentang semua pembaruan terbaru.
     public_help: "Tekan tombol di bawah untuk mendapatkan bantuan untuk <i>{help_option}</i>"
     source_code: "Source Code"
   utils:
