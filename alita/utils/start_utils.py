@@ -41,7 +41,7 @@ async def gen_start_kb(q: Message or CallbackQuery):
     return ikb(
         [
             [
-                (f"{(tlang(q, 'start.commands_btn'))} ❓", "commands"),
+                (f"❓ {(tlang(q, 'start.commands_btn'))}", "commands"),
                 (f"{(tlang(q, 'start.language_btn'))}", "chlang")
             ],
             [
