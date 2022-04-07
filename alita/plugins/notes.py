@@ -391,7 +391,7 @@ async def clear_allnote(_, m: Message):
     await m.reply_text(
         "Are you sure you want to clear all notes?",
         reply_markup=ikb(
-            [[("⚠️ Confirm", "clear_notes"), ("❌ Cancel", "close_admin")]],
+            [[(" Confirm", "clear_notes"), (" Cancel", "close_admin")]],
         ),
     )
     return
