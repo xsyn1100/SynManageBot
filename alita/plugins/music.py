@@ -1,5 +1,5 @@
-"""    
- 💡 For users
+__PLUGIN__ = """    
+💡 For users
     
 ❂ /play (query or reply audio)*:* to playing music from youtube or your audio telegram.
 ❂ /vplay (query or reply audio)*:* for playing video from YouTube.
@@ -16,3 +16,7 @@
     
 NOTE*:* If you have any issues regarding syn music, contact us at @synxsupport.
 """
+
+
+
+
